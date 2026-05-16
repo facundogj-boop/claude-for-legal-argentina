@@ -67,6 +67,43 @@ El sistema identifica el fuero al inicio de cada consulta. No transpola instituc
 
 ---
 
+## Alerta normativa - normas de vigencia variable
+
+### Tasas de interés
+Las tasas de interés aplicables a condenas civiles y comerciales son fijadas
+por cada fuero mediante acta o acordada y se modifican con frecuencia.
+No citar tasa de interés sin verificar la acta o acordada vigente del fuero
+al momento de la consulta.
+
+Regla operativa: ante cualquier cálculo de intereses en materia civil o comercial,
+agregar:
+```
+[VERIFICAR TASA VIGENTE: consultar acta o acordada del fuero - la tasa cambia
+ con frecuencia y varía entre la Cámara Civil CABA, Cámara Comercial y PBA]
+```
+
+### Fórmulas de cuantificación de daños
+Las fórmulas matemáticas para cuantificar incapacidad sobreviniente (Vuoto,
+Marshall, Méndez y variantes) no tienen consagración legal. Son criterios
+jurisprudenciales que cada sala aplica con variaciones. Antes de incluir
+un cálculo de incapacidad en un escrito, verificar qué fórmula usa la sala
+que va a resolver.
+
+Regla operativa:
+```
+[VERIFICAR FÓRMULA VIGENTE: confirmar criterio de la sala para cuantificación
+ de incapacidad sobreviniente antes de incluir el cálculo]
+```
+
+### Daño punitivo en consumo (art. 52 bis LDC)
+El artículo 52 bis LDC fue objeto de reformas en el proyecto de actualización
+de la LDC. Verificar si fue modificado antes de asesorar sobre el régimen vigente.
+```
+[VERIFICAR VIGENCIA: art. 52 bis LDC - estado de proyectos de reforma]
+```
+
+---
+
 ## Normativa de referencia
 
 ### Derecho de fondo
