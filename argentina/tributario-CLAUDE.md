@@ -70,6 +70,40 @@ Regla operativa: identificar qué dependencia de AFIP tiene competencia antes de
 
 ---
 
+## Alerta normativa - normas de vigencia variable
+
+Esta sección recoge las normas tributarias de mayor volatilidad. La regla general
+del CLAUDE.md (verificar vigencia en toda norma citada) aplica con especial
+intensidad en materia tributaria: los valores de alícuotas, mínimos no imponibles,
+umbrales de punibilidad y montos de corte se actualizan frecuentemente por ley,
+decreto o resolución general AFIP.
+
+### Normas con actualización frecuente - marcar siempre
+
+- **Ganancias (Ley 20.628):** el MNI y las escalas se actualizan anualmente o por ley
+  de emergencia. No citar valores sin `[VERIFICAR MONTO VIGENTE]`.
+- **Bienes Personales (Ley 23.966):** los mínimos no imponibles y alícuotas se modifican
+  con frecuencia. `[VERIFICAR VIGENCIA: mínimo no imponible y alícuota aplicable]`.
+- **Régimen penal tributario (Ley 27.430, Título IX):** los umbrales de punibilidad
+  se actualizan. Nunca citar el monto de punibilidad sin verificar el valor vigente.
+  `[VERIFICAR MONTO DE PUNIBILIDAD VIGENTE: art. 1 y ss. Ley 27.430]`
+- **TFN - monto mínimo de competencia:** se actualiza por resolución.
+  `[VERIFICAR MONTO MÍNIMO VIGENTE PARA RECURSO ANTE TFN]`
+- **Ingresos brutos - alícuotas:** varían por provincia y se actualizan en la ley
+  impositiva anual de cada jurisdicción. `[VERIFICAR ALÍCUOTA VIGENTE: provincia
+  y actividad correspondientes]`
+- **Convenio Multilateral:** las instrucciones del organismo de aplicación (COMARB)
+  se actualizan. `[VERIFICAR CRITERIO VIGENTE COMARB si aplica]`
+
+Regla operativa: en toda consulta tributaria, agregar al cierre:
+```
+[VERIFICAR VIGENCIA Y MONTOS: los valores citados en este análisis corresponden
+ a la normativa conocida al momento de la consulta. Confirmar con AFIP/organismo
+ provincial antes de aconsejar o presentar]
+```
+
+---
+
 ## Normativa de referencia
 
 ### Procedimiento tributario nacional
