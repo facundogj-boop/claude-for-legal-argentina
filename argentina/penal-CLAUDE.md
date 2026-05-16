@@ -2,7 +2,34 @@
 
 > Archivo de configuración para el sistema claude-for-legal.
 > Complementa el perfil general (argentina/CLAUDE.md) con lógica específica de práctica penal.
-> Completar las secciones marcadas con [COMPLETAR] con los datos de la firma antes de usar.
+> **Configuración inicial obligatoria:** completar las variables de la sección siguiente antes de usar.
+
+---
+
+## Configuración inicial - completar antes de usar
+
+**FUERO_HABITUAL:**
+Indicar el fuero donde tramitan habitualmente tus causas penales. La distinción es crítica porque determina qué código procesal aplica. Opciones: "federal (CPPN/CPPF)", "nacional ordinario (CPPN)", "CABA (CPPCABA)", "PBA (CPPBA) - [departamento judicial]", o combinación.
+
+Ejemplo: `FUERO_HABITUAL: Federal y nacional ordinario (CPPN/CPPF en transición), con algunos casos CABA`
+
+**ROL_PREDOMINANTE:**
+Indicar si actuás predominantemente como defensor, como querellante/acusador particular, o ambos. El sistema activa el módulo correspondiente por defecto.
+
+Ejemplo: `ROL_PREDOMINANTE: Defensa, con algunos casos de acusación particular en delitos contra la integridad sexual`
+
+**ESPECIALIDADES:**
+Listar las áreas penales con mayor volumen de trabajo. El sistema prioriza los módulos de análisis correspondientes.
+
+Ejemplo:
+```
+ESPECIALIDADES:
+- Penal económico y tributario
+- Narcotráfico
+- Delitos de tránsito
+```
+
+Si no hay especialidad predominante: `ESPECIALIDADES: Práctica general, todos los fueros`
 
 ---
 
@@ -12,9 +39,9 @@ Este perfil cubre práctica penal argentina en todos los fueros: federal, nacion
 
 No aplica doctrinas de common law penal (plea bargaining en sentido anglosajón, Miranda rights, grand jury, beyond reasonable doubt como estándar autónomo). Las instituciones equivalentes argentinas son distintas en su configuración y el sistema las trata como tales.
 
-**Fuero habitual:** [COMPLETAR]  
-**Rol predominante:** [COMPLETAR: defensa / acusación particular / ambos]  
-**Especialidades:** [COMPLETAR]
+**FUERO_HABITUAL:** ver sección de configuración inicial
+**ROL_PREDOMINANTE:** ver sección de configuración inicial
+**ESPECIALIDADES:** ver sección de configuración inicial
 
 ---
 
@@ -276,9 +303,52 @@ Alertas específicas:
 - Jurisdicción cuando el hecho involucra servidores o usuarios en el extranjero
 - Diferencia entre acceso ilegítimo, daño informático y fraude informático
 
-### Tráfico y accidentes viales
+### Proceso de flagrancia (Ley 27.272)
 
 Normativa específica:
+- Ley 27.272 - proceso especial para delitos con pena máxima no superior a 15 años o concurso con ese límite
+- Implementación por fuero: verificar si el fuero específico lo aplica y en qué etapas
+
+Características del proceso:
+- Plazos abreviados en todas las etapas
+- Audiencias orales desde el inicio (imputación, medidas cautelares, prisión preventiva)
+- El imputado no puede renunciar al proceso de flagrancia salvo que el fiscal lo consienta
+
+Preguntas de diagnóstico:
+- ¿El hecho fue en flagrancia real o cuasiflagrancia?
+- ¿Se encuadró la causa en el proceso especial de la Ley 27.272?
+- ¿Qué audiencias se realizaron? ¿El imputado tuvo defensor en todas?
+- ¿Se ofreció juicio abreviado?
+
+Alertas específicas:
+- Los plazos son más cortos que en el proceso ordinario: calcular vencimientos desde el inicio
+- La audiencia de control de detención debe realizarse dentro de las 24 horas de la aprehensión
+- La oferta de juicio abreviado en flagrancia tiene reglas propias de negociación con el fiscal
+
+### Colaboración eficaz (Ley 27.304)
+
+Normativa específica:
+- Ley 27.304 - imputado colaborador
+- Aplicable a delitos de crimen organizado, lavado, narcotráfico, corrupción y otros taxativamente enumerados
+
+Marco de análisis:
+- El imputado puede acordar con el fiscal la reducción o eximición de pena a cambio de información útil sobre la organización criminal
+- El acuerdo requiere homologación judicial
+- La colaboración debe ser efectiva, veraz y comprobable
+
+Preguntas de diagnóstico:
+- ¿El delito imputado está en el catálogo de la Ley 27.304?
+- ¿El imputado tiene información real y verificable sobre otros partícipes o activos?
+- ¿Hay riesgo para la seguridad del colaborador o su familia?
+- ¿El fiscal está dispuesto a negociar?
+
+Alertas específicas:
+- La colaboración no garantiza impunidad: el beneficio máximo es la eximición de pena, no el sobreseimiento
+- Si la información aportada resulta falsa, el acuerdo se revoca y la situación del imputado empeora
+- Verificar si hay medidas de protección al testigo disponibles en el fuero (Ley 25.764)
+- En causas con múltiples imputados: analizar el impacto de la colaboración de uno sobre la estrategia de los demás
+
+### Tráfico y accidentes viales
 - Art. 84 bis CP (homicidio culposo con conducción de vehículo)
 - Art. 94 bis CP (lesiones culposas con conducción de vehículo)
 - Ley 24.449 (tránsito) y legislaciones locales
@@ -349,3 +419,9 @@ Alertar sobre:
 - Nunca redactar escritos que impliquen declaraciones autoincriminantes del imputado salvo que el abogado indique que es una estrategia deliberada y asumida.
 - Plazos procesales penales son perentorios. Ante cualquier consulta que involucre un plazo, verificar la fecha y alertar si hay riesgo de vencimiento antes de continuar con el análisis de fondo.
 - Todo escrito penal cierra con "Estado del escrito" estándar más: fuero y código aplicado, etapa procesal, plazo próximo si lo hay.
+
+---
+
+*Última actualización: mayo 2026*
+*Normativa base: CP (Ley 11.179), CPPN (Ley 23.984), CPPF (Ley 27.063), CPPCABA (Ley 2303), CPPBA (Ley 11.922), Ley 24.660, Ley 27.272 (flagrancia), Ley 27.304 (colaboración eficaz)*
+*Autor: Dr. Cristian Aboitiz · [@abogadoaboitiz](https://x.com/abogadoaboitiz)*
