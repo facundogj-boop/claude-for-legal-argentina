@@ -12,11 +12,12 @@ autónoma desde Claude.ai Projects o Claude Code.
 ```
 argentina/
   CLAUDE.md                         # Perfil general - cargar en todo Project
-  CHANGELOG.md                      # Historial de cambios normativos y del sistema
+  REGISTRO DE CAMBIOS.md            # Historial de cambios normativos y del sistema
   marcadores-GLOSARIO.md            # Glosario canónico de marcadores (fuente de verdad)
   setup-interview.md                # Entrevista de configuración inicial
   setup-output-TEMPLATE.md          # Template de output de la entrevista
   diagnostico-SKILL.md              # Skill de diagnóstico previo (transversal)
+  plazos-SKILL.md                   # Skill de cómputo de plazos procesales y administrativos
   diagnostico-casos-prueba.md       # Casos de prueba para verificar el skill
   red-flags-contratos.md            # Alertas para revisión de contratos (activ. automática)
   contratos-CLAUDE.md               # Perfil unificado para revisión y redacción de contratos
@@ -125,6 +126,22 @@ cualquier perfil de área.
 Para verificar que el skill funciona correctamente, usá `diagnostico-casos-prueba.md`:
 pegá uno de los tres escritos de prueba y comparás el output del sistema con
 el diagnóstico esperado documentado en el archivo.
+
+### Paso 5: Skill de cómputo de plazos
+
+Cargá `plazos-SKILL.md` en cualquier Project donde necesites calcular plazos procesales
+o administrativos. Puede cargarse solo o junto con cualquier perfil de área; si el
+CLAUDE.md personalizado tiene configurado `FUERO_HABITUAL`, el skill lo usa por defecto
+sin preguntar.
+
+El skill cubre plazos en días hábiles judiciales y administrativos, días corridos, meses
+y años, con suspensiones por feria judicial, mediación prejudicial y SECLO. No calcula
+plazos ante AFIP/ARCA: ante esas consultas emite `[REVISIÓN NORMATIVA REQUERIDA]`.
+
+Interacción con perfiles de área: el skill se activa automáticamente ante consultas de
+prescripción o caducidad cuando está cargado junto con `civil-CLAUDE.md`,
+`laboral-CLAUDE.md` o `administrativo-CLAUDE.md`. También puede invocarse directamente
+con el comando `/argentina:plazos`.
 
 ---
 
@@ -278,10 +295,10 @@ Frecuencia orientativa: continua para alertas normativas; semestral para el rest
 
 Para actualizaciones urgentes (nueva tasa CNAT, cambio de tope art. 245, reforma
 procesal): modificar directamente la sección `## Alerta normativa` del perfil
-afectado y registrar el cambio en `CHANGELOG.md`. Esa sección tiene el impacto
+afectado y registrar el cambio en `REGISTRO DE CAMBIOS.md`. Esa sección tiene el impacto
 más inmediato en los marcadores que el sistema emite.
 
-La tabla de normas de alta volatilidad del `CHANGELOG.md` lista los datos con
+La tabla de normas de alta volatilidad del `REGISTRO DE CAMBIOS.md` lista los datos con
 mayor frecuencia de cambio y la fecha de última verificación de cada uno.
 
 
