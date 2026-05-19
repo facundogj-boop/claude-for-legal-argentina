@@ -158,15 +158,17 @@ Conectores de la comunidad que apuntan directamente a las fuentes oficiales arge
 | # | Repositorio / Endpoint | Fuente | Función | Requisito |
 |---|---|---|---|---|
 | 1 | [Ansvar-Systems/argentine-law-mcp](https://github.com/Ansvar-Systems/argentine-law-mcp) | InfoLEG / SAIJ | Texto literal de normas nacionales | Gratuito |
-| 2 | [Psflores/Legal-MCP-Server-](https://github.com/Psflores/Legal-MCP-Server-) | PJN / CABA | Jurisprudencia fueros nacionales | Gratuito |
-| 3 | [guidobonomini/argentina-law-mcp-server](https://github.com/guidobonomini/argentina-law-mcp-server) | Praxis local | Análisis semántico, glosario judicial | Gratuito |
-| 4 | [datos-justicia-argentina/Tesauro-Saij](https://github.com/datos-justicia-argentina/Tesauro-Saij-de-Derecho-Argentino) | SAIJ | Vocabulario controlado para búsqueda jurídica | Gratuito |
-| 5 | [voftec/normativapba-mcp](https://github.com/voftec/normativapba-mcp) · `https://normativapba-mcp.vercel.app` | normas.gba.gob.ar | Legislación provincial PBA: búsqueda, vigencia, articulado, árbol de dependencias normativas. Conexión directa vía URL en Claude.ai (Settings → Integrations) o instalable vía npx. Consulta en tiempo real sobre el portal oficial. Ver nota de limitación abajo. | Gratuito |
-| 6 | [joaquinescalante23/saij-mcp](https://github.com/joaquinescalante23/saij-mcp) | SAIJ | Investigación profunda: jurisprudencia, legislación, doctrina y dictámenes; grafo legal; OCR para PDFs históricos; resolución de citas textuales. Opera sobre API no oficial de SAIJ - verificar estado antes de usar. | Gratuito |
-| 7 | `https://api.fallobot.com/mcp` | CSJN · SAIJ · JUBA · SCBA | Búsqueda multifuente simultánea en lenguaje natural; enlaza al fallo original en la fuente oficial | Plan Pro (fallobot.com) |
-| 8 | SCBA / JUBA | Jurisprudencia PBA | Sin conector MCP de fuente abierta; cubierto por FalloBot (7). Ver instrucciones de acceso directo en `fuentes.md` | — |
+| 2 | [voftec/normativapba-mcp](https://github.com/voftec/normativapba-mcp) · `https://normativapba-mcp.vercel.app` | normas.gba.gob.ar | Legislación provincial PBA: búsqueda, vigencia, articulado, árbol de dependencias normativas. Conexión directa vía URL en Claude.ai (Settings → Integrations) o instalable vía npx. Ver nota de limitación abajo. | Gratuito |
+| 3 | `claude mcp add juba-mcp -- uvx juba-mcp` | JUBA / SCBA | Jurisprudencia SCBA y cámaras de apelación PBA. Cubre primera instancia desde junio 2025. | Gratuito |
+| 4 | `claude mcp add saij-mcp -- uvx saij-mcp` | SAIJ | Jurisprudencia, legislación, doctrina y dictámenes. Más de 330.000 documentos. | Gratuito |
+| 5 | `claude mcp add csjn-mcp -- uvx csjn-mcp` | CSJN | Fallos de la Corte Suprema de Justicia de la Nación | Gratuito |
+| 6 | `claude mcp add juscaba-mcp -- uvx juscaba-mcp` | Poder Judicial CABA / fueros nacionales | Jurisprudencia de fueros nacionales y locales con sede en CABA | Gratuito |
+| 7 | [joaquinescalante23/saij-mcp](https://github.com/joaquinescalante23/saij-mcp) | SAIJ | Investigación profunda: jurisprudencia, legislación, doctrina y dictámenes; grafo legal; OCR para PDFs históricos; resolución de citas textuales. Opera sobre API no oficial de SAIJ - verificar estado antes de usar. | Gratuito |
+| 8 | [Psflores/Legal-MCP-Server-](https://github.com/Psflores/Legal-MCP-Server-) | PJN / CABA | Jurisprudencia fueros nacionales. Proyecto de la comunidad - verificar estado antes de usar. | Gratuito |
+| 9 | [guidobonomini/argentina-law-mcp-server](https://github.com/guidobonomini/argentina-law-mcp-server) | Praxis local | Análisis semántico, glosario judicial argentino, detección de riesgos calibrada para praxis local | Gratuito |
+| 10 | [datos-justicia-argentina/Tesauro-Saij](https://github.com/datos-justicia-argentina/Tesauro-Saij-de-Derecho-Argentino) | SAIJ | Vocabulario controlado para búsqueda jurídica | Gratuito |
 
-#### Nota sobre el conector 5 (voftec/normativapba-mcp) - `verificar_vigencia`
+#### Nota sobre el conector 2 (voftec/normativapba-mcp) - `verificar_vigencia`
 
 La herramienta `verificar_vigencia` consulta en tiempo real los metadatos de `normas.gba.gob.ar` y reproduce su estado tal como está cargado en el portal. El portal puede contener errores en las relaciones de derogación. Caso conocido: la Ley 11.922 (CPP Bonaerense, 1997) figura en el portal como derogada por la Ley/Decreto-ley 9032 (1978), cuando la relación es inversa: la 11.922 deroga a la 9032 y está plenamente vigente con modificatorias.
 
@@ -177,16 +179,16 @@ Regla de uso: `verificar_vigencia` es un primer filtro, no una fuente definitiva
 | Necesidad | Conector recomendado | Fallback manual |
 |---|---|---|
 | Texto de norma nacional | 1 (Ansvar) | infoleg.gob.ar |
-| Texto de norma provincial PBA | 5 (voftec) | normas.gba.gob.ar |
-| Jurisprudencia CSJN | 7 (FalloBot, plan Pro) | sj.csjn.gov.ar |
-| Jurisprudencia CABA / fueros nacionales | 2 (Psflores) o 6 (saij-mcp) | pjn.gov.ar · jusbaires |
-| Jurisprudencia SAIJ (todas las instancias) | 6 (saij-mcp) | saij.gob.ar |
-| Doctrina y dictámenes | 6 (saij-mcp) | saij.gob.ar |
-| Grafo legal / navegación de citas | 6 (saij-mcp) | Manual en saij.gob.ar |
-| Jurisprudencia PBA (SCBA y cámaras) | 7 (FalloBot, plan Pro) | juba.scba.gov.ar |
-| Búsqueda multifuente simultánea | 7 (FalloBot, plan Pro) | Fuentes por separado |
-| Análisis semántico / terminología | 3 (guidobonomini) | Glosario del CLAUDE.md |
-| Mejora de búsquedas jurisprudenciales | 4 (Tesauro SAIJ) | saij.gob.ar |
+| Texto de norma provincial PBA | 2 (voftec) | normas.gba.gob.ar |
+| Jurisprudencia PBA (SCBA y cámaras) | 3 (juba-mcp) | juba.scba.gov.ar |
+| Jurisprudencia SAIJ (todas las instancias) | 4 (saij-mcp) | saij.gob.ar |
+| Jurisprudencia CSJN | 5 (csjn-mcp) | sj.csjn.gov.ar |
+| Jurisprudencia CABA / fueros nacionales | 6 (juscaba-mcp) | jusbaires.gob.ar |
+| Grafo legal / navegación de citas / OCR histórico | 7 (joaquinescalante23/saij-mcp) | saij.gob.ar |
+| Jurisprudencia PJN alternativa | 8 (Psflores) | pjn.gov.ar |
+| Doctrina y dictámenes | 4 (saij-mcp) o 7 (joaquinescalante23) | saij.gob.ar |
+| Análisis semántico / terminología | 9 (guidobonomini) | Glosario del CLAUDE.md |
+| Mejora de búsquedas jurisprudenciales | 10 (Tesauro SAIJ) | saij.gob.ar |
 
 ### Fuentes primarias sin conector MCP
 
@@ -211,8 +213,10 @@ Acceso directo por el abogado para verificación manual. Son la fuente de verdad
 
 No son necesarios para empezar. Los perfiles funcionan solos como única configuración.
 Los conectores son la segunda capa: permiten que el sistema consulte fuentes primarias
-automáticamente sin que el abogado tenga que pegar el texto en la sesión. Ver `fuentes.md`
-para instrucciones completas de verificación de estado, fallback y combinaciones recomendadas.
+automáticamente sin que el abogado tenga que pegar el texto en la sesión. Los conectores
+3 a 6 (Caravario) se instalan vía `uvx`; el conector 2 (voftec) tiene conexión directa
+por URL sin instalación local. Ver `fuentes.md` para instrucciones completas de
+verificación de estado, fallback y combinaciones recomendadas.
 
 ---
 
