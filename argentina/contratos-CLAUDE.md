@@ -21,13 +21,24 @@
 
 *Última verificación de esta sección: mayo 2026. Actualizar cuando cambie alguna de las normas listadas.*
 
-### Régimen de locaciones urbanas
-La Ley 27.551 y sus modificatorias (Ley 27.737, DNU 70/2023) cambiaron
-en varias oportunidades los plazos mínimos, el mecanismo de actualización
-del precio y las garantías admisibles. Ante cualquier contrato de locación urbana:
+### Régimen de locaciones urbanas - TRES regimenes segun fecha del contrato
+
+**Cambio normativo material desde dic-2023: la Ley 27.551 fue DEROGADA por DNU 70/2023, no modificada.**
+
+| Período | Régimen aplicable |
+|---|---|
+| Pre-Ley 27.551 (antes 30-jun-2020) | CCCN arts. 1187 y ss. - régimen original |
+| Ley 27.551 vigente (30-jun-2020 a 29-dic-2023) | Ley 27.551 + Ley 27.737 - plazos mínimos, actualización IPC/CER, garantías taxativas |
+| Post-DNU 70/2023 (desde 30-dic-2023) | **Ley 27.551 y Ley 27.737 DEROGADAS**. Régimen libre del CCCN: plazo libre (mínimo supletorio 2 años vivienda permanente, 3 años otros usos), moneda libre, índice libre, partes negocian |
+
+**Regla de transición:** contratos firmados durante la vigencia de la Ley 27.551/27.737 mantienen su régimen (no retroactividad). Contratos firmados desde el 30-dic-2023: régimen libre del CCCN.
+
+**Resolución anticipada del locatario (régimen post-DNU 70/2023):** indemnización equivalente al 10% del monto total restante a abonar del contrato. Es la única indemnización al locador por esta causa en el régimen nuevo.
+
+Ante cualquier contrato de locación urbana, verificar primero la fecha de celebración:
 ```
-[VERIFICAR VIGENCIA: Ley 27.551 y modificatorias - régimen aplicable al momento
- del contrato y al momento de la consulta pueden diferir]
+[VERIFICAR FECHA DE CELEBRACIÓN: el régimen aplicable depende del momento del contrato.
+ Pre-30-jun-2020: CCCN original | 30-jun-2020/29-dic-2023: Ley 27.551 | Post-30-dic-2023: régimen libre CCCN]
 ```
 
 ### Régimen cambiario
@@ -36,6 +47,25 @@ con precio en moneda extranjera se modifican por normativa del BCRA con frecuenc
 ```
 [VERIFICAR RÉGIMEN CAMBIARIO VIGENTE: normativa BCRA - verificar antes de
  aconsejar sobre cualquier obligación en moneda extranjera]
+```
+
+### Obligaciones en moneda extranjera - reforma DNU 70/2023
+
+**Arts. 765 y 766 CCCN reformados por DNU 70/2023, vigente desde 30-dic-2023.**
+
+**Régimen reformado (obligaciones nacidas post-30-dic-2023):**
+- Libertad de partes: las obligaciones pueden pactarse en moneda nacional o extranjera
+- El deudor NO puede liberarse pagando en moneda distinta a la pactada, salvo aceptación del acreedor
+- El art. 766 reformado regula los detalles del pago en moneda extranjera
+
+**Régimen original (obligaciones nacidas pre-30-dic-2023):**
+- Art. 765 original: obligaciones en moneda extranjera podían cancelarse en moneda nacional al tipo de cambio oficial del día del pago
+- Régimen de "obligación dineraria de dar moneda que no sea de curso legal" con conversión
+
+Regla operativa: verificar fecha del contrato u origen de la obligación antes de aplicar régimen. En contratos pre-30-dic-2023 vigentes: aplicar régimen original. La reforma no tiene efecto retroactivo.
+```
+[VERIFICAR RÉGIMEN APLICABLE: obligación en moneda extranjera - fecha de origen determina
+ si aplica art. 765 CCCN original o reformado por DNU 70/2023]
 ```
 
 ### Derecho intertemporal
@@ -270,27 +300,41 @@ con marcadores para las restantes.
 **Alertas específicas:**
 - Inmuebles: el boleto de compraventa no transfiere el dominio; solo la escritura pública e inscripción registral (art. 1892 CCCN [VERIFICAR VIGENCIA]). Aclarar esto en el contrato para evitar expectativas erróneas.
 - Vicios ocultos: la garantía opera de pleno derecho (arts. 1051-1058 CCCN [VERIFICAR VIGENCIA]); una cláusula que la excluya totalmente puede ser abusiva en contratos de adhesión.
-- Precio en moneda extranjera: `[VERIFICAR RÉGIMEN CAMBIARIO VIGENTE]`
+- Precio en moneda extranjera: `[VERIFICAR RÉGIMEN CAMBIARIO VIGENTE]` + `[VERIFICAR RÉGIMEN APLICABLE: arts. 765/766 CCCN - fecha del contrato determina si el deudor puede pagar en moneda nacional]`
 - Reserva de dominio en compraventa con precio diferido: verificar inscripción si corresponde.
 
 ---
 
 ### Contratos de locación
 
-**Norma base:** arts. 1187-1226 CCCN + Ley 27.551 y modificatorias [VERIFICAR VIGENCIA: régimen al momento del contrato]
+**Norma base:** arts. 1187-1226 CCCN. Ley 27.551 y Ley 27.737 DEROGADAS por DNU 70/2023 desde 30-dic-2023.
+
+**Primera pregunta obligatoria antes de cualquier análisis:**
+```
+[VERIFICAR FECHA DE CELEBRACIÓN: el régimen aplicable depende del momento del contrato.
+ Pre-30-jun-2020: CCCN original | 30-jun-2020/29-dic-2023: Ley 27.551 | Post-30-dic-2023: régimen libre CCCN]
+```
 
 **Preguntas de diagnóstico:**
-1. ¿Es locación urbana con destino habitacional o comercial? (distintos regímenes)
-2. ¿El locatario es consumidor? (activa LDC)
-3. ¿Cuál es el plazo? ¿Respeta el mínimo legal?
-4. ¿Cómo se actualiza el precio? ¿Por qué índice?
-5. ¿Qué garantías admite? (caución, seguro de caución, aval bancario, garantía personal)
+1. ¿Cuál es la fecha de celebración del contrato? (determina el régimen aplicable)
+2. ¿Es locación urbana con destino habitacional o comercial? (distintos regímenes)
+3. ¿El locatario es consumidor? (activa LDC)
+4. ¿Cuál es el plazo? ¿Respeta el mínimo supletorio del régimen aplicable?
+5. ¿Cómo se actualiza el precio? ¿Por qué índice?
+6. ¿Qué garantías se pactaron?
 
-**Alertas específicas:**
-- Plazo mínimo: `[VERIFICAR VIGENCIA: Ley 27.551 - plazo mínimo vigente al momento del contrato]`
-- Mecanismo de actualización del precio: `[VERIFICAR VIGENCIA: índice de actualización admitido por la norma vigente al momento del contrato]`
-- Garantías no admitidas por la ley vigente: `[RED FLAG - NULIDAD ABSOLUTA: garantía no habilitada por Ley 27.551 - verificar norma vigente]`
+**Alertas específicas - régimen post-30-dic-2023 (libre):**
+- Plazo: libre entre partes; supletorio 2 años (vivienda permanente) y 3 años (otros destinos) si no se pacta plazo
+- Actualización de precio: libre entre partes; no hay índice obligatorio
+- Garantías: libertad contractual; no rige la lista taxativa de la Ley 27.551
+- Resolución anticipada del locatario: indemnización del 10% del monto total restante del contrato
+- Sin mecanismo de actualización en contrato de larga duración: `[RED FLAG - RIESGO ALTO: ausencia de índice de actualización en locación de tracto sucesivo]`
 - Cláusula de resolución sin intimación previa: `[RED FLAG - RIESGO ALTO: pacto comisorio sin procedimiento de intimación - art. 1088 CCCN]`
+
+**Alertas específicas - régimen Ley 27.551 (contratos 30-jun-2020 a 29-dic-2023):**
+- Plazo mínimo: 3 años para cualquier destino; 2 años para habitación con muebles, uso turístico, o profesional
+- Actualización: índice ICL (Índice de Contratos de Locación, BCRA); prohibida actualización por otros índices
+- Garantías: solo las previstas taxativamente por la Ley 27.551; cualquier garantía distinta es `[RED FLAG - NULIDAD ABSOLUTA]`
 
 ---
 
@@ -392,8 +436,9 @@ Las reglas del CLAUDE.md argentino aplican íntegramente. Específicas para cont
 
 ---
 
-*Última actualización: mayo 2026*
-*Normativa base: CCCN (Ley 26.994), LDC (Ley 24.240), Ley 27.551 y modificatorias,
-Ley 25.326, Ley 24.766, Ley 11.723*
+*Ultima actualizacion: mayo 2026*
+*Normativa base: CCCN (Ley 26.994) con arts. 765/766 reformados por DNU 70/2023, LDC (Ley 24.240), Ley 25.326, Ley 24.766, Ley 11.723*
+*Ley 27.551 y Ley 27.737 DEROGADAS por DNU 70/2023 desde 30-dic-2023*
 *Archivo complementario obligatorio: `argentina/red-flags-contratos.md`*
+*Incorpora audit de gaps post-reforma 2024: Diego Fernandez - Sovra (mayo 2026)*
 *Autor: Dr. Cristian Aboitiz · [@abogadoaboitiz](https://x.com/abogadoaboitiz)*
