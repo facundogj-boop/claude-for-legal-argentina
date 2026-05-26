@@ -3,7 +3,7 @@ titulo: Recursos administrativos CABA y plazo de caducidad art. 7 CCAyT
 area: administrativo
 perfil: administrativo-caba-CLAUDE.md
 fuero: CCAyT CABA
-problema: cómputo del plazo de caducidad del art. 7 CCAyT después de una cadena de recursos bajo el Dec 1510/97, con reconsideración interpuesta contra acto que ya agotó la vía administrativa
+problema: "cómputo del plazo de caducidad del art. 7 CCAyT después de una cadena de recursos bajo el Dec 1510/97, con reconsideración interpuesta contra acto que ya agotó la vía administrativa"
 ---
 
 # Caso · Recursos administrativos CABA y plazo de caducidad CCAyT
