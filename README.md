@@ -332,18 +332,17 @@ Requieren instalación por comando o manual. Los conectores con `uvx` requieren 
 
 | Conector | Fuente | Función | Instalación |
 |---|---|---|---|
-| saij-mcp | SAIJ | Jurisprudencia, legislación, doctrina y dictámenes | `claude mcp add saij-mcp -- uvx saij-mcp` |
-| csjn-mcp | CSJN | Fallos de la Corte Suprema | `claude mcp add csjn-mcp -- uvx csjn-mcp` |
-| juscaba-mcp | JUSCABA | Jurisprudencia fueros nacionales con sede en CABA | `claude mcp add juscaba-mcp -- uvx juscaba-mcp` |
+| saij-mcp | SAIJ | Jurisprudencia, legislación, doctrina y dictámenes | `claude mcp add saij-mcp -- uvx saij-mcp` · [GitHub](https://github.com/hernan-cc/saij-mcp) |
+| csjn-mcp | CSJN | Fallos de la Corte Suprema | `claude mcp add csjn-mcp -- uvx csjn-mcp` · [GitHub](https://github.com/hernan-cc/csjn-mcp) |
+| juscaba-mcp | JUSCABA | Jurisprudencia fueros nacionales con sede en CABA | `claude mcp add juscaba-mcp -- uvx juscaba-mcp` · [GitHub](https://github.com/hernan-cc/juscaba-mcp) |
 | saij-mcp (Escalante) | SAIJ | Investigación profunda: grafo legal, OCR para PDFs históricos | Ver [repositorio](https://github.com/joaquinescalante23/saij-mcp) |
-| tesauro-mcp | SAIJ | Vocabulario jurídico controlado para mejorar búsquedas | `claude mcp add tesauro-mcp -- uvx tesauro-mcp` |
 | guidobonomini | Local | Análisis semántico y terminológico de textos jurídicos | Ver [repositorio](https://github.com/guidobonomini/argentina-law-mcp-server) |
 | macos-use | Desktop | Automatización de portales sin API (PJN, SCBA, IGJ) - solo Mac, solo Claude Code | Ver [repositorio](https://github.com/mediar-ai/mcp-server-macos-use) |
 | scba-mcp-server | SCBA | Sentencias y resoluciones de primera instancia PBA (sentencias.scba.gov.ar): búsqueda por organismo, fecha y texto libre; descarga y guarda documentos en disco. Requiere Chrome + chromedriver instalados localmente. No cubre JUBA (Cámaras / SCBA). | Ver [repositorio](https://github.com/FacundoEmanuel/scba-mcp-server) |
 
----
+**Ecosistema Hernán Caravario (hernan-cc):** saij-mcp, csjn-mcp y juscaba-mcp son parte del mismo ecosistema. Podés instalar los tres en simultáneo; Claude elige cuál usar según la consulta. Ver todos en [github.com/hernan-cc](https://github.com/hernan-cc) y [hernancc.com/mcp-tools](https://hernancc.com/mcp-tools).
 
-### Si el conector no funciona: fuentes primarias
+
 
 Accedé directamente y pegá el texto en la sesión. Son la fuente de verdad ante cualquier discrepancia.
 
