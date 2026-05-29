@@ -73,10 +73,10 @@ Lugar y fecha. Atento al descuento/retención improcedente realizado en mi salar
 
 ________________________________________
 
-Intimando al debido registro del salario real - art. 11, Ley 24.013 (relación ya registrada con remuneración inferior a la real) (ACTUALIZADO)
-Lugar y fecha. Habiendo advertido que en mi recibo de sueldo se consigna una remuneración inferior a la efectivamente percibida, lo intimo a que en el plazo de 30 días (art. 11, Ley 24.013) proceda a registrar en ARCA la relación laboral conforme a la realidad de la misma, denunciando mi verdadera remuneración, la cual asciende a la suma de $ [monto]. Su omisión me causa un grave perjuicio patrimonial y previsional. Lo intimo además a que en el plazo de 48 horas manifieste si procedera a registrar correctamente mi salario, bajo apercibimiento de considerarme injuriado y despedido por su exclusiva culpa y responsabilidad. Queda Ud. debidamente notificado.
+Intimando al debido registro del salario real - arts. 7 y 7 bis, Ley 24.013 (relación ya registrada con remuneración inferior a la real) (ACTUALIZADO - art. 11 DEROGADO)
+Lugar y fecha. Habiendo advertido que en mi recibo de sueldo se consigna una remuneración inferior a la efectivamente percibida, lo intimo a que en el plazo de 30 días proceda a registrar en ARCA la relación laboral conforme a la realidad de la misma (arts. 7 y 7 bis, Ley 24.013), denunciando mi verdadera remuneración, la cual asciende a la suma de $ [monto]. Su omisión me causa un grave perjuicio patrimonial y previsional. Lo intimo además a que en el plazo de 48 horas manifieste si procedera a registrar correctamente mi salario, bajo apercibimiento de considerarme injuriado y despedido por su exclusiva culpa y responsabilidad. Queda Ud. debidamente notificado.
 
-Revisar antes de enviar: (1) Las multas de los arts. 8, 9, 10 y 15 de la Ley 24.013 fueron derogadas por la Ley 27.742. No citar ese apercibimiento. (2) Si el trabajador factura o cobra de forma bancarizada, la presunción del art. 23 LCT no opera. Acreditar el pago real por otros medios.
+Revisar antes de enviar: (1) El art. 11 de la Ley 24.013 fue derogado por art. 99 de la Ley 27.742 desde el 9/7/2024. El fundamento vigente para la intimación de registro de la remuneración real es el art. 7 (texto según Ley 27.742, art. 82) y el art. 7 bis (incorporado por art. 83, Ley 27.742). No citar el art. 11. (2) Las multas de los arts. 8, 9, 10 y 15 de la Ley 24.013 fueron derogadas por la Ley 27.742. No citar ese apercibimiento. (3) Si el trabajador factura o cobra de forma bancarizada, la presunción del art. 23 LCT no opera. Acreditar el pago real por otros medios.
 
 ________________________________________
 
@@ -101,7 +101,7 @@ Normas con vigencia confirmada:
 - LCT arts. 124, 125, 128, 208: VIGENTES, sin modificaciones relevantes para estos modelos.
 - LCT art. 104 bis: INCORPORADO por Ley 27.742. Aplica a bonos y componentes retributivos dinamicos.
 - LCT art. 23: reformado por Ley 27.802, art. 13.
-- Ley 24.013, art. 11: VIGENTE como fundamento de intimación. Multas derogadas.
+- Ley 24.013, art. 11: DEROGADO por art. 99 Ley 27.742 desde el 9/7/2024. Fundamento vigente para intimación de registro de remuneración real: arts. 7 y 7 bis. Multas (arts. 8, 9, 10 y 15): DEROGADAS.
 - Ley 25.323, arts. 1 y 2: DEROGADOS por Ley 27.742.
 - Arts. 1031 y 1032 CCCN: VIGENTES.
 
