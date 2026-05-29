@@ -422,8 +422,9 @@ Accedé directamente y pegá el texto en la sesión. Son la fuente de verdad ant
 - Redactar telegramas y cartas documento laborales con verificación normativa post-reforma (Ley 27.742 + Ley 27.802)
 
 **Administrativo:**
-- Verificar agotamiento de la vía administrativa y plazos de caducidad (art. 25 LNPA)
-- Analizar recursos administrativos y acciones contenciosas en los tres fueros (federal, CABA, PBA)
+- Verificar agotamiento de la vía administrativa y plazos de caducidad (art. 25 LNPA y equivalentes provinciales)
+- Analizar recursos administrativos y acciones contenciosas en fuero federal, CABA (CCAyT / TSJBA) y las provincias con perfil cargado: Buenos Aires (Cámaras CA / SCBA), Chubut (STJ - Sala CA), Córdoba (TSJ - Sala CA), Corrientes (STJ - pleno), Entre Ríos (STJ - Sala N° 2 / Sala Constitucional y Electoral), Mendoza (SCJ - Sala Primera), Misiones (STJ - pleno), Neuquén (TSJ - Sala Procesal Administrativa), Río Negro (STJ), Salta (Corte de Justicia - pleno), San Juan (Corte de Justicia - Sala Segunda), Santa Fe (CSJSF) y Tucumán (CSJ - Sala CA)
+- Identificar el régimen procesal aplicable en cada jurisdicción y alertar sobre plazos de caducidad diferenciados entre vía administrativa y acción judicial
 
 **Penal:**
 - Analizar estrategia de defensa por etapa procesal y código aplicable (CPPN / CPPF / CPPCABA / CPPBA)
