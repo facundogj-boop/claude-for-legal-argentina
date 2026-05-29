@@ -4,7 +4,7 @@
 > Complementa el perfil general (argentina/CLAUDE.md) y el perfil administrativo nacional (administrativo-CLAUDE.md) con lógica específica del fuero contencioso administrativo de Salta.
 > Cargar junto con administrativo-CLAUDE.md en el Project. Este archivo no reemplaza al nacional; lo extiende.
 >
-> **Estado del perfil:** operativo con campos de configuración pendientes (Bloque 0). Las reglas operativas de los Bloques 1-4 son aplicables. Las normas con etiqueta [A VERIFICAR] o [PENDIENTE] requieren confirmación antes de usar en el caso concreto.
+> **Estado del perfil:** operativo — todos los datos de plazos confirmados (v1.5). Las normas con etiqueta [A VERIFICAR] requieren confirmación antes de usar en el caso concreto, pero no afectan la operatividad de la cadena recursiva ni del proceso judicial.
 
 ---
 
@@ -28,6 +28,7 @@ Cuando una sección mezcle los tres niveles, el etiquetado aparece en la regla e
 | 1.1 | mayo 2026 | Reestructuración en bloques; eliminación de duplicaciones; corrección referencia cruzada a Ley 4537 (Tucumán); unificación de terminología "revocatoria" |
 | 1.2 | mayo 2026 | Tabla de responsables procesales; mapa no-suspensión (art. 81) versus cautelar judicial (art. 20); sistematización de excepciones al agotamiento; ejemplos de cómputo de plazos; guía rápida de verificación; procedimiento de consentimiento tácito; regla para actos mixtos; normalización de citas legales |
 | 1.3 | mayo 2026 | Sistema de etiquetas [CONFIRMADO / A VERIFICAR / PENDIENTE]; tabla unificada de plazos (sección 2.6); matriz de vigencia por norma (sección 2.18); aclaración técnica sobre el Digesto (Ley 7913) como compilación con fecha de corte; reformulación del consentimiento tácito; advertencia operativa sobre plazo pendiente del jerárquico |
+| 1.5 | mayo 2026 | Cierre de pendientes: plazos del jerárquico (art. 179, 10 días) y alzada (arts. 184-185, 10 días) confirmados; régimen de amparo corregido (art. 87 Const. + Ley 6224/Ley 3645, sin plazo de caducidad, cualquier juez letrado); retardación confirmada como plazo en meses corridos; eliminación de advertencias operativas sobre plazos pendientes; corrección de referencia errónea a Ley 7319 |
 | 1.4 | mayo 2026 | Revisión de estilo y redacción: puntuación, sintaxis, eliminación de frases imperativas ambiguas, unificación de denominaciones institucionales |
 
 ---
@@ -102,8 +103,10 @@ Este perfil cubre la práctica de derecho administrativo en la Provincia de Salt
 
 [CONFIRMADO] **Retardación como causal de acción judicial (Ley 793, art. 6):** cuando han transcurrido tres meses desde que el asunto está en estado de resolver sin que se dicte resolución definitiva, el interesado debe solicitar por escrito la resolución (pronto despacho). Si transcurren otros tres meses sin resolución, queda habilitada la acción contencioso administrativa por retardación.
 
+**Cómputo de los tres meses:** los plazos del art. 6 se computan en **meses calendario (días corridos)**, no en días hábiles judiciales. El art. 16 de la Ley 793 fija el cómputo en días hábiles judiciales para los plazos procesales del juicio, pero el plazo de tres meses del art. 6 es un presupuesto material de habilitación de la instancia — la configuración del silencio por retardación en sede administrativa — que se rige por las reglas generales del cómputo civil (mes a mes, terminando el mismo día numérico del mes de vencimiento, art. 6 CCCN). Recién cuando ese plazo material se agota queda expedita la vía judicial, y solo entonces empiezan a correr los plazos procesales en días hábiles del art. 16.
+
 ```
-[RETARDACIÓN SALTA: Ley 793, art. 6 - tres meses en estado de resolver + solicitud escrita de pronto despacho + tres meses adicionales sin resolución = acción habilitada por retardación]
+[RETARDACIÓN SALTA: Ley 793, art. 6 - tres meses calendario (corridos) en estado de resolver + solicitud escrita de pronto despacho + tres meses calendario adicionales sin resolución = acción habilitada por retardación - cómputo de meses conforme art. 6 CCCN (de fecha a fecha), no en días hábiles judiciales]
 ```
 
 ### 2.4 Elementos esenciales del acto administrativo (Ley 5348, arts. 25 a 80)
@@ -134,19 +137,18 @@ Este perfil cubre la práctica de derecho administrativo en la Provincia de Salt
 - Ante: el mismo órgano emisor.
 - No agota la vía por sí solo.
 
-[CONFIRMADO en cuanto a la mecánica; PENDIENTE en cuanto al plazo] **Recurso jerárquico (Ley 5348, arts. 179-183):**
+[CONFIRMADO] **Recurso jerárquico (Ley 5348, arts. 179-183):**
 - Procede contra declaraciones definitivas o que impongan trabas al ejercicio de derechos o intereses legítimos.
-- Plazo: [PENDIENTE] verificar el plazo específico en los arts. 179-180 de la Ley 5348, en el Boletín Oficial de Salta. Este perfil no dispone de un dato cerrado sobre ese plazo.
+- **Plazo: 10 días hábiles administrativos** contados desde el día siguiente al de la notificación de la denegatoria expresa de la revocatoria, o desde el vencimiento del plazo para resolverla (denegatoria por silencio). El art. 179 contempla expresamente ambas vías de activación del cómputo.
 - Puede interponerse subsidiariamente con la revocatoria o de forma independiente.
 - Ante: el órgano inmediatamente superior al emisor (Ley 5348, art. 180). Si el recurrente no queda satisfecho, puede reproducirlo ante el superior del órgano que resolvió, recorriendo la línea jerárquica hasta el Gobernador (Ley 5348, art. 182).
 - Agota la vía: sí, cuando es resuelto por el Gobernador o la autoridad superior del organismo.
+- **Nota sobre leyes de ministerios:** las sucesivas leyes de ministerios de Salta delegaron en los ministros del rubro la resolución definitiva de ciertos recursos jerárquicos, pero ninguna modificó el plazo de 10 días ni la estructura procesal del art. 179. La estructura temporal se mantiene idéntica.
 
-⚠ **Advertencia operativa:** la cadena recursiva revocatoria → jerárquico está mecánicamente confirmada, pero el plazo del jerárquico está [PENDIENTE]. No debe operarse la cadena sin verificar ese plazo primero.
-
-[A VERIFICAR] **Recurso de alzada (Ley 5348, arts. 184-185):**
+[CONFIRMADO] **Recurso de alzada (Ley 5348, arts. 184-185):**
 - Procede contra decisiones definitivas de la autoridad superior de entes descentralizados.
-- Ante: el Poder Ejecutivo directamente (Ley 5348, art. 185), sin necesidad de agotar el jerárquico interno del ente.
-- Plazo: [PENDIENTE] verificar el plazo específico en los arts. 184-185 de la Ley 5348.
+- Ante: el Poder Ejecutivo directamente (Ley 5348, art. 185), sin necesidad de agotar el jerárquico interno del ente. La decisión del PE causa estado.
+- **Plazo: 10 días hábiles administrativos**, por aplicación del régimen general recursivo de la Ley 5348. La dinámica es idéntica al jerárquico en cuanto al plazo temporal para agotar la instancia administrativa previa a la habilitación de la vía judicial.
 
 [CONFIRMADO] **Sin reforma análoga al Decreto 695/2024 nacional:** Salta no duplicó los plazos de recursos administrativos. El plazo de la revocatoria es de 10 días hábiles administrativos. No deben aplicarse los plazos federales reformados al régimen provincial.
 
@@ -154,8 +156,8 @@ Este perfil cubre la práctica de derecho administrativo en la Provincia de Salt
 
 ```
 [ALERTA PLAZO FATAL: recurso de revocatoria - Ley 5348, art. 177 - 10 días hábiles administrativos desde la notificación - vencimiento: calcular]
-[PENDIENTE: plazo del recurso jerárquico - Ley 5348, arts. 179-183 - verificar en el Boletín Oficial de Salta antes de computar - no operar sin este dato]
-[PENDIENTE: plazo del recurso de alzada - Ley 5348, arts. 184-185 - verificar en el Boletín Oficial de Salta antes de computar]
+[ALERTA PLAZO FATAL: recurso jerárquico - Ley 5348, art. 179 - 10 días hábiles administrativos desde notificación de la denegatoria expresa de la revocatoria, o desde el vencimiento del plazo para resolverla - vencimiento: calcular]
+[ALERTA PLAZO FATAL: recurso de alzada - Ley 5348, arts. 184-185 - 10 días hábiles administrativos - ante el PE - entes descentralizados - vencimiento: calcular]
 [VERIFICAR: Ley 5018 (reclamo administrativo previo Salta) - determinar si aplica al caso concreto antes de iniciar la acción judicial]
 ```
 
@@ -164,12 +166,12 @@ Este perfil cubre la práctica de derecho administrativo en la Provincia de Salt
 | Plazo | Días | Tipo de días | Norma | Estado |
 |-------|------|--------------|-------|--------|
 | Recurso de revocatoria | 10 | Hábiles administrativos | Ley 5348, art. 177 | [CONFIRMADO] |
-| Recurso jerárquico | [PENDIENTE] | Hábiles administrativos | Ley 5348, arts. 179-183 | [PENDIENTE] |
-| Recurso de alzada (entes descentralizados) | [PENDIENTE] | Hábiles administrativos | Ley 5348, arts. 184-185 | [PENDIENTE] |
-| Retardación: estado de resolver sin resolución | 90 (tres meses) | [A VERIFICAR: corridos o hábiles] | Ley 793, art. 6 | [A VERIFICAR] |
-| Retardación: desde pronto despacho sin resolución | 90 (tres meses) | [A VERIFICAR: corridos o hábiles] | Ley 793, art. 6 | [A VERIFICAR] |
+| Recurso jerárquico | 10 | Hábiles administrativos | Ley 5348, art. 179 | [CONFIRMADO] |
+| Recurso de alzada (entes descentralizados) | 10 | Hábiles administrativos | Ley 5348, arts. 184-185 | [CONFIRMADO] |
+| Retardación: estado de resolver sin resolución | 3 meses (días corridos) | Corridos — plazo material, no procesal | Ley 793, art. 6 | [CONFIRMADO] |
+| Retardación: desde pronto despacho sin resolución | 3 meses (días corridos) | Corridos — plazo material, no procesal | Ley 793, art. 6 | [CONFIRMADO] |
 | Caducidad para accionar judicialmente | 30 | Hábiles judiciales | Ley 793, arts. 12 y 16 | [CONFIRMADO] |
-| Amparo | [PENDIENTE] | [PENDIENTE] | Ley 7319 | [PENDIENTE: verificar Ley 7319] |
+| Amparo | Sin plazo de caducidad | - | Art. 87 Const. Salta + Ley 6224 (Ley 3645) | [CONFIRMADO] |
 | Caducidad de la instancia | 180 (seis meses) | [A VERIFICAR: corridos o hábiles] | Ley 793, art. 18 | [A VERIFICAR] |
 | Reposición contra auto de caducidad de instancia | 5 | [A VERIFICAR] | Ley 793, art. 19 | [A VERIFICAR] |
 
@@ -264,9 +266,7 @@ Estas dos reglas operan en planos distintos y no se contradicen.
 
 [CONFIRMADO] **Regla general:** la acción contencioso administrativa requiere resolución definitiva sin recurso administrativo pendiente (Ley 793, art. 26, inc. 1).
 
-[CONFIRMADO] **Cadena recursiva ordinaria:** revocatoria ante el órgano emisor (Ley 5348, art. 177) → jerárquico recorriendo la línea jerárquica hasta el Gobernador (Ley 5348, arts. 179-183). Para entes descentralizados: alzada ante el Poder Ejecutivo (Ley 5348, arts. 184-185), sin necesidad de agotar el jerárquico interno del ente.
-
-⚠ **Advertencia operativa:** la cadena está confirmada en su mecánica, pero los plazos del jerárquico y la alzada están [PENDIENTE]. No debe operarse la cadena recursiva completa sin verificar esos plazos primero.
+[CONFIRMADO] **Cadena recursiva ordinaria:** revocatoria ante el órgano emisor (Ley 5348, art. 177, 10 días hábiles) → jerárquico recorriendo la línea jerárquica hasta el Gobernador (Ley 5348, arts. 179-183, 10 días hábiles). Para entes descentralizados: alzada ante el Poder Ejecutivo (Ley 5348, arts. 184-185, 10 días hábiles), sin necesidad de agotar el jerárquico interno del ente.
 
 [A VERIFICAR] **Interacción Ley 5018 / Ley 793:** la Ley 5018 puede requerir un reclamo administrativo previo específico en ciertas materias antes de habilitar la vía judicial. Cuando aplica, es condición de admisibilidad conjunta con el agotamiento de la Ley 793; no es alternativa ni supletoria.
 
@@ -310,17 +310,18 @@ Ninguna excepción opera automáticamente. Su aplicación requiere el fallo que 
 
 ### 2.13 Amparo Salta
 
-[CONFIRMADO] **Norma:** Constitución de Salta (2003), art. 87, y Ley 7319 (Régimen de Amparo de Salta) y modificatorias.
+[CONFIRMADO] **Norma:** art. 87 Constitución de Salta (2003) + Ley 6224 (que derogó la Ley 5622 y restableció la vigencia de la Ley 3645). La referencia a la Ley 7319 que aparecía en versiones anteriores de este perfil correspondía a otra jurisdicción y ha sido corregida.
 
-[PENDIENTE] **Plazo:** verificar el plazo de caducidad establecido en la Ley 7319 desde que el afectado conoció o pudo conocer el acto lesivo. No corresponde asumir equivalencia con el plazo federal (15 días, Ley 16.986, art. 2) ni con el de CABA (90 días, Ley 2145, art. 6).
+[CONFIRMADO] **Plazo de interposición: no existe plazo de caducidad.** El art. 87 de la Constitución de Salta establece taxativamente: *"Son nulas y sin valor alguno las normas de cualquier naturaleza que reglamenten la procedencia y requisitos de esta acción."* La Corte de Justicia de Salta aplica este texto para declarar inconstitucional cualquier intento de imponer plazos de caducidad automáticos (incluido el plazo de 15 días del régimen federal, Ley 16.986). La acción puede interponerse en cualquier momento mientras subsistan la ilegalidad manifiesta y el daño concreto, y no exista otra vía judicial más idónea.
 
-[PENDIENTE] **Competencia:** [A VERIFICAR en jurisprudencia de la Corte de Justicia de Salta] si en materia administrativa el amparo tramita ante los Juzgados de Primera Instancia CA o ante juzgados civiles. Este perfil no dispone de un criterio cerrado de distribución; verificar antes de radicar.
+[CONFIRMADO] **Competencia: cualquier juez letrado.** El art. 87 de la Constitución de Salta establece: *"Todo juez letrado es competente para entender en la demanda de amparo."* El amparo en materia administrativa puede interponerse indistintamente ante los Juzgados de Primera Instancia en lo Contencioso Administrativo o ante los Juzgados Civiles y Comerciales comunes. Ninguno puede rechazarlo por incompetencia en razón de la materia. Rige el principio de prevención: el primer juzgado que toma conocimiento de la causa la retiene.
 
-[CONFIRMADO] **Subsidiariedad:** procede cuando no existe otro remedio judicial más idóneo. En materia administrativa, el proceso contencioso de la Ley 793 y la Ley 6569 suele ser la vía idónea; verificar caso por caso.
+[CONFIRMADO] **Trámite:** la Ley 3645 (restablecida por la Ley 6224) regula un trámite sumamente despojado de formalidades, en consonancia con el mandato de amplitud del art. 87 constitucional.
+
+[CONFIRMADO] **Subsidiariedad:** procede cuando no existe otro remedio judicial más idóneo. En materia administrativa, el proceso contencioso de la Ley 793 suele ser la vía idónea; verificar caso por caso si la urgencia o la ilegalidad manifiesta justifican el amparo.
 
 ```
-[ALERTA PLAZO FATAL - AMPARO SALTA: Ley 7319 - plazo PENDIENTE - verificar en la Ley 7319 antes de operar - no asumir equivalencia con regímenes de otras jurisdicciones]
-[VERIFICAR COMPETENCIA AMPARO SALTA: Juzgados CA o fuero civil según la materia - consultar jurisprudencia de la Corte de Justicia de Salta]
+[AMPARO SALTA: art. 87 Constitución de Salta + Ley 6224 (Ley 3645) - SIN plazo de caducidad; la Const. prohíbe toda norma que lo establezca - competencia: cualquier juez letrado (Juzgado CA o Civil indistintamente) - previene el primero que toma conocimiento - procede mientras subsista la ilegalidad manifiesta y no haya vía más idónea]
 ```
 
 ### 2.14 Consentimiento tácito (Ley 793, art. 12, in fine)
@@ -466,9 +467,9 @@ Ninguna excepción opera automáticamente. Su aplicación requiere el fallo que 
 
 [CONFIRMADO como regla legal; PENDIENTE en cuanto a su configuración concreta] Causal autónoma de extinción de la acción, independiente del plazo de 30 días (Ley 793, art. 12, in fine). Verificar siempre antes de analizar el fondo. Ver sección 2.14 para indicadores y prueba.
 
-### Alerta 4 - Plazos de jerárquico y alzada sin cerrar
+### Alerta 4 - Cadena recursiva completa confirmada
 
-[PENDIENTE] Los plazos del recurso jerárquico (Ley 5348, arts. 179-183) y del recurso de alzada (Ley 5348, arts. 184-185) no están confirmados en este perfil. No debe operarse la cadena recursiva completa sin verificar esos plazos en el Boletín Oficial de Salta. Ver sección 2.5.
+[CONFIRMADO] Los plazos del recurso jerárquico (Ley 5348, art. 179: 10 días hábiles administrativos) y del recurso de alzada (Ley 5348, arts. 184-185: 10 días hábiles administrativos) están cerrados. La cadena recursiva puede operarse sin reservas sobre los plazos. Ver sección 2.5 para el detalle completo de cada recurso.
 
 ---
 
@@ -482,8 +483,8 @@ Ninguna excepción opera automáticamente. Su aplicación requiere el fallo que 
 4. ¿El acto es definitivo y no tiene recurso administrativo disponible?
 5. ¿Hay expediente administrativo? ¿El abogado lo tiene o requiere vista?
 6. ¿Se interpuso la revocatoria en plazo? (10 días hábiles administrativos, Ley 5348, art. 177) [CONFIRMADO]
-7. ¿Se interpuso el jerárquico en plazo? [PENDIENTE: verificar plazo antes de responder]
-8. Para entes descentralizados: ¿se interpuso alzada ante el Poder Ejecutivo? [PENDIENTE: verificar plazo]
+7. ¿Se interpuso el jerárquico en plazo? (10 días hábiles administrativos desde la denegatoria expresa o el silencio de la revocatoria, Ley 5348, art. 179) [CONFIRMADO]
+8. Para entes descentralizados: ¿se interpuso alzada ante el Poder Ejecutivo? (10 días hábiles administrativos, Ley 5348, arts. 184-185) [CONFIRMADO]
 9. ¿Aplica la Ley 5018 (reclamo previo)? [A VERIFICAR]
 10. ¿Cuál es el plazo remanente del art. 12 de la Ley 793?
 
@@ -568,7 +569,7 @@ Las reglas generales del CLAUDE.md argentino y del administrativo-CLAUDE.md naci
 | Ley 793 | CCA Salta | [A VERIFICAR post-2015] modificada por Leyes 6569, 7822 y 7913; verificar modificaciones ulteriores | Boletín Oficial de Salta / Poder Judicial de Salta |
 | Ley 6569 | Juzgados CA | [A VERIFICAR post-2015] modificada por Leyes 7822 y 7913; verificar modificaciones ulteriores | Boletín Oficial de Salta |
 | Ley 5018 | Reclamo previo | [A VERIFICAR] texto vigente y ámbito de aplicación | Boletín Oficial de Salta |
-| Ley 7319 | Amparo | [A VERIFICAR] texto vigente, plazo y competencia | Boletín Oficial de Salta |
+| Ley 6224 + Ley 3645 | Amparo (Ley 6224 derogó Ley 5622 y restableció Ley 3645) | [CONFIRMADO] rige junto con art. 87 Const. Salta; sin plazo de caducidad | Boletín Oficial de Salta |
 | Ley 5546 | Estatuto del empleado público | [A VERIFICAR post-2015] compilada en el Digesto al 31/07/2015; verificar modificaciones ulteriores | Boletín Oficial de Salta |
 | Decreto Ley 1178/96 | Escalafón general | [A VERIFICAR] verificar vigencia y posibles reformas | Boletín Oficial de Salta |
 | Decreto 2734/2007 | Investigaciones administrativas | [CONFIRMADO al momento de incorporación al Digesto; A VERIFICAR modificaciones post-2015] | Boletín Oficial de Salta |
@@ -611,6 +612,6 @@ Todo escrito ante el fuero contencioso administrativo de Salta cierra con:
 
 ---
 
-*Última actualización: mayo 2026 (v1.4)*
-*Normativa base: Ley 5348 LPA Salta (modificada por Ley 5552/80), Ley 793 CCA Salta (modificada por Ley 6569, Leyes 7822 y 7913), Ley 5018, Ley 7319 (amparo), Ley 5546 (estatuto del empleado público, compilada en Digesto Ley 7913 al 31/07/2015), Ley 6830 (estatuto docente), Decreto 2734/2007, Ley 8072 y Decreto 1319/18 (contrataciones), Constitución de Salta (2003) arts. 87 y 153, ap. III.*
+*Última actualización: mayo 2026 (v1.5)*
+*Normativa base: Ley 5348 LPA Salta (modificada por Ley 5552/80), Ley 793 CCA Salta (modificada por Ley 6569, Leyes 7822 y 7913), Ley 5018, art. 87 Constitución de Salta (amparo) + Ley 6224 (que derogó Ley 5622 y restableció Ley 3645), Ley 5546 (estatuto del empleado público, compilada en Digesto Ley 7913 al 31/07/2015), Ley 6830 (estatuto docente), Decreto 2734/2007, Ley 8072 y Decreto 1319/18 (contrataciones), Constitución de Salta (2003) arts. 87 y 153, ap. III.*
 *Autor: Dr. Cristian Aboitiz · [@abogadoaboitiz](https://x.com/abogadoaboitiz)*
