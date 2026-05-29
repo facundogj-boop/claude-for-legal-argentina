@@ -47,29 +47,29 @@ No aplica doctrinas de common law laboral (at-will employment, wrongful terminat
 
 ## Alerta normativa - Reforma laboral 2023-2024 vigente operacionalmente
 
-*Ultima verificacion: mayo 2026.*
+*Última verificación: mayo 2026.*
 
-El **DNU 70/2023** (vigente desde 30-dic-2023) y la **Ley 27.742** (Ley Bases, 9-jul-2024) reformaron sustantivamente la LCT. La medida cautelar inicial de la CGT contra el Titulo IV del DNU fue **levantada por la Camara Nacional del Trabajo en Acuerdo Pleno de abril 2026**, reactivando operativamente la reforma laboral.
+El **DNU 70/2023** (vigente desde 30-dic-2023) y la **Ley 27.742** (Ley Bases, 9-jul-2024) reformaron sustantivamente la LCT. La medida cautelar inicial de la CGT contra el Título IV del DNU fue **levantada por la Cámara Nacional del Trabajo en Acuerdo Pleno de abril 2026**, reactivando operativamente la reforma laboral.
 
-**Estado actual (mayo 2026): la reforma esta vigente operacionalmente.**
+**Estado actual (mayo 2026): la reforma está vigente operacionalmente.**
 
-**Areas afectadas - regimen vigente:**
-- Periodo de prueba (art. 92 bis LCT): extendido de 3 meses a **8 meses** como regla general (ver seccion indemnizaciones)
-- Indemnizacion por despido (art. 245 LCT): base de calculo modificada en dos etapas - DNU 70/2023 excluye SAC y bonificaciones semestrales/anuales; Ley 27.802 excluye ademas vacaciones no gozadas y horas extras (ver seccion indemnizaciones - TRES regimenes)
+**Áreas afectadas - régimen vigente:**
+- Período de prueba (art. 92 bis LCT): extendido de 3 meses a **6 meses** como regla general (art. 91 Ley 27.742); ampliable a 8 meses por CCT en empresas de 6 a 100 trabajadores, y a 1 año por CCT en empresas de hasta 5 trabajadores. Las ampliaciones requieren CCT expreso; no operan automáticamente (ver sección indemnizaciones)
+- Indemnización por despido (art. 245 LCT): base de cálculo modificada en dos etapas - DNU 70/2023 excluye SAC y bonificaciones semestrales/anuales; Ley 27.802 excluye además vacaciones no gozadas y horas extras (ver sección indemnizaciones - TRES regímenes)
 - Agravantes registrales Ley 24.013 (arts. 8, 9, 10, 15) y Ley 25.323 (arts. 1 y 2): DEROGADOS por Ley 27.742 para actos extintivos desde el 9/7/2024
-- Fondo de cese laboral como alternativa al art. 245 si el CCT lo establece (ver seccion indemnizaciones)
+- Fondo de cese laboral como alternativa al art. 245 si el CCT lo establece (ver sección indemnizaciones)
 - Ultraactividad de CCT: modificada por DNU 70/2023 - verificar texto vigente antes de asesorar sobre CCT vencidos
-- Registro de empleados: unificado en ARCA (art. 52 LCT reformado por Ley 27.802)
+- Registro de empleados: unificado en ARCA (art. 52 LCT reformado por Ley 27.802, art. 20)
 
-**Regla de transicion temporal - aplicar en todo calculo:**
+**Regla de transición temporal - aplicar en todo cálculo:**
 - Actos extintivos **pre-30-dic-2023:** aplican plazos y normas LCT originales
 - Actos extintivos **30-dic-2023 a 9-jul-2024:** aplica DNU 70/2023
 - Actos extintivos **10-jul-2024 a 5-mar-2026:** aplica reforma consolidada (DNU 70/2023 + Ley 27.742)
-- Actos extintivos **desde 6-mar-2026:** aplica ademas Ley 27.802 (nuevo art. 245, art. 66, art. 80, art. 231, art. 240, entre otros)
+- Actos extintivos **desde 6-mar-2026:** aplica además Ley 27.802 (nuevo art. 245, art. 66, art. 80, art. 231 -eliminación de preaviso en período de prueba-, art. 240, entre otros)
 
 Verificar siempre la fecha del acto extintivo antes de aplicar plazos o normas reformadas.
 
-**Regla operativa:** ante cualquier consulta sobre extincion del contrato, periodo de prueba o negociacion colectiva, identificar la fecha del acto y aplicar el regimen correspondiente segun la tabla de transicion. No asumir regimen sin verificar fecha.
+**Regla operativa:** ante cualquier consulta sobre extinción del contrato, período de prueba o negociación colectiva, identificar la fecha del acto y aplicar el régimen correspondiente según la tabla de transición. No asumir régimen sin verificar fecha.
 
 ---
 
@@ -85,9 +85,9 @@ Verificar siempre la fecha del acto extintivo antes de aplicar plazos o normas r
 
 ### Fuero laboral CABA (fuero local)
 
-- **Empleador privado con domicilio en CABA:** fuero nacional del trabajo (Ley 18.345). No confundir con el fuero local.
+- **Empleador privado con domicilio en CABA:** situación en transición. Coexisten dos fueros: (a) Juzgados Nacionales de Primera Instancia del Trabajo (Ley 18.345, CNAT como alzada) - fuero nacional histórico, aún operativo; (b) Juzgados de Primera Instancia del Trabajo de la CABA (Ley CABA 6347/2020) con su Cámara de Apelaciones del Trabajo de la CABA (Ley CABA 6511) - fuero local en proceso de implementación progresiva. El traspaso no está completado operativamente a mayo 2026: ambos sistemas coexisten y la radicación depende de la fecha de inicio de la causa y del juzgado específico al que fue asignada la transferencia. Verificar ante qué tribunal radica la causa antes de cualquier análisis procesal. No asumir fuero sin verificación.
 - **Empleador GCBA:** fuero contencioso administrativo, tributario y de relaciones de consumo de la Ciudad (CAyT CABA), conforme Ley 7 CABA y reforma del CPJRC de 2019. El CCAyT es el código procesal aplicable; la Ley 18.345 no tiene aplicación directa.
-- Regla operativa: identificar el empleador antes de determinar el fuero. Un empleado del GCBA que reclama diferencias salariales tramita ante el fuero CAyT CABA, no ante el fuero nacional del trabajo. La confusión de fuero puede derivar en incompetencia declarada de oficio.
+- Regla operativa: identificar el empleador y la fecha de radicación antes de determinar el fuero. Para empleador privado en CABA, la coexistencia de fueros obliga a verificar en cada caso. Un empleado del GCBA tramita ante el fuero CAyT CABA sin excepción. La confusión de fuero puede derivar en incompetencia declarada de oficio.
 
 ### PBA
 
@@ -107,24 +107,24 @@ El sistema identifica el fuero al inicio de cada consulta. No transpola instituc
 
 ### Derecho individual del trabajo
 
-- **LCT (Ley 20.744)** y modificatorias [VERIFICAR VIGENCIA post-DNU 70/2023] - fuente principal del contrato de trabajo
-- **Ley 24.013 (Ley de Empleo):** registración, empleo no registrado. Art. 11 (intimación de registro): VIGENTE. Arts. 8, 9, 10 y 15 (agravantes indemnizatorios): DEROGADOS por Ley 27.742 para actos extintivos desde el 9/7/2024. Ver tabla en sección "Registración del contrato".
+- **LCT (Ley 20.744)** y modificatorias (texto consolidado con DNU 70/2023, Ley 27.742 y Ley 27.802) - fuente principal del contrato de trabajo
+- **Ley 24.013 (Ley de Empleo):** registración, empleo no registrado. Art. 11 (intimación de registro): DEROGADO por art. 99 Ley 27.742 desde el 9/7/2024; fundamento vigente para intimaciones de registro: arts. 7, 7 bis, 7 ter y 7 quáter (texto según Ley 27.742 y Ley 27.802). Arts. 8, 9, 10 y 15 (agravantes indemnizatorios): DEROGADOS por Ley 27.742 para actos extintivos desde el 9/7/2024. Ver tabla en sección "Registración del contrato".
 - **Ley 25.323:** Art. 1 (duplicación por falta de registración) y art. 2 (recargo por falta de pago en término): DEROGADOS por Ley 27.742 para actos extintivos desde el 9/7/2024. Ver sección "Extinción del contrato".
-- **Ley 25.345:** art. 80 LCT reformado - entrega de certificados de trabajo y aportes; multa por incumplimiento (tres mejores salarios mensuales normales y habituales)
+- **Ley 25.345:** arts. 43 a 48 DEROGADOS por art. 99 Ley 27.742 desde el 9/7/2024. El art. 45 (multa por falta de certificados) no aplica para extinciones desde esa fecha. La obligación de entrega de certificados subsiste bajo el art. 80 LCT reformado por Ley 27.802.
 - **Ley 26.727:** trabajo agrario
 - **Ley 22.250:** industria de la construcción
 - **Ley 12.981:** encargados de casas de renta
 - **Ley 26.844:** personal de casas particulares
 - **Ley 24.467 y 25.013:** PyMES - régimen diferenciado en algunos institutos
 - **Ley 27.555:** teletrabajo - aplicable cuando el trabajo remoto está pactado por escrito
-- **Decreto 433/94 y modificatorias:** registro de empleados
+- **Decreto 433/94 y modificatorias:** régimen de registro de empleados anterior a la reforma; superado por el art. 52 LCT (texto según Ley 27.802, art. 20) que unificó el registro en ARCA
 
 ### Accidentes y enfermedades del trabajo
 
 - **Ley 24.557 (LRT)** y modificatorias - sistema de riesgos del trabajo
 - **Ley 26.773:** reforma de la LRT, piso indemnizatorio, opción excluyente, actualización de prestaciones
 - **Ley 27.348:** reforma procesal de la LRT, comisiones médicas, instancia administrativa previa
-- **Decreto 49/2014 [VERIFICAR VIGENCIA]:** ajuste de prestaciones dinerarias - las prestaciones LRT se actualizan periódicamente por resolución SRT; verificar resolución vigente antes de citar montos
+- **Decreto 49/2014** (superado por actualizaciones periódicas de la SRT): referencia histórica de ajuste de prestaciones dinerarias - las prestaciones LRT se actualizan por resolución SRT; verificar resolución vigente antes de citar montos
 - **Resoluciones SRT:** listado de enfermedades profesionales, valores de prestaciones - verificar actualización antes de citar montos
 - **Opción excluyente (art. 4 Ley 26.773):** el trabajador puede optar entre el sistema de la LRT y la acción civil, pero la opción es excluyente e irrevocable. Alertar siempre antes de aconsejar.
 
@@ -233,11 +233,11 @@ Alertas específicas:
 | Remuneración registrada menor a la real | Art. 10 Ley 24.013 | 25% de la diferencia por cada mes en que rigió | **DEROGADA** - sin multa |
 | Falta de registración total | Art. 1 Ley 25.323 | Duplicación de la indemnización del art. 245 LCT | **DEROGADA** - sin duplicación |
 
-Nota: los arts. 8, 9 y 10 de la Ley 24.013 pueden concurrir en el mismo caso para hechos anteriores al 9/7/2024. Para hechos posteriores a esa fecha no procede ninguno de estos agravantes. El art. 11 de la Ley 24.013 (intimación fehaciente como condición de procedencia) subsiste como fundamento de la intimación de registro, pero ya no activa multas.
+Nota: los arts. 8, 9 y 10 de la Ley 24.013 pueden concurrir en el mismo caso para hechos anteriores al 9/7/2024. Para hechos posteriores a esa fecha no procede ninguno de estos agravantes. El art. 11 fue derogado por art. 99 Ley 27.742 desde el 9/7/2024: para intimaciones de registro desde esa fecha, el fundamento es el art. 7 (texto según Ley 27.742, art. 82), el art. 7 bis (incorporado por art. 83 Ley 27.742) y el art. 7 ter (reformado por Ley 27.802, art. 98).
 
 El mecanismo de denuncia ante ARCA por irregularidad registral vigente desde la Ley 27.802 es el art. 7 ter de la Ley 24.013 (denuncia directa del trabajador ante ARCA, desvinculada del telegrama al empleador).
 
-Condición para los agravantes de la Ley 24.013 (solo para hechos anteriores al 9/7/2024): el trabajador debe haber intimado fehacientemente al empleador antes de la extinción del contrato (art. 11 Ley 24.013). Sin intimación previa, no procedían los agravantes.
+Condición para los agravantes de la Ley 24.013 (solo para hechos anteriores al 9/7/2024): el trabajador debe haber intimado fehacientemente al empleador antes de la extinción del contrato conforme la normativa vigente en ese momento. Sin intimación previa, no procedían los agravantes.
 
 ### Remuneración
 
@@ -261,42 +261,42 @@ Condición para los agravantes de la Ley 24.013 (solo para hechos anteriores al 
 **Preaviso (art. 231 LCT):**
 - Hasta 5 años de antigüedad: 1 mes
 - Más de 5 años: 2 meses
-- Durante el período de prueba (8 meses vigente post-reforma, 3 meses para actos pre-30-dic-2023): 15 días
+- Durante el período de prueba: 15 días para extinciones hasta el 5/3/2026 (art. 231 inc. b, texto según Ley 25.877); sin obligación de preaviso para extinciones desde el 6/3/2026 (art. 231 inc. b, texto según Ley 27.802, art. 48)
 - Omisión de preaviso: indemnización sustitutiva equivalente a las remuneraciones del período
 
-**Indemnizacion por antiguedad (art. 245 LCT) - TRES regimenes segun fecha del acto extintivo:**
+**Indemnización por antigüedad (art. 245 LCT) - TRES regímenes según fecha del acto extintivo:**
 
-*Regimen original (actos extintivos pre-30-dic-2023):*
-- Base: mejor remuneracion mensual normal y habitual del ultimo ano, **incluyendo SAC y conceptos semestrales/anuales proporcionales**
-- Multiplicador: un mes por ano de servicio o fraccion mayor a tres meses
+*Régimen original (actos extintivos pre-30-dic-2023):*
+- Base: mejor remuneración mensual normal y habitual del último año, **incluyendo SAC y conceptos semestrales/anuales proporcionales**
+- Multiplicador: un mes por año de servicio o fracción mayor a tres meses
 - Tope: tres veces el promedio de todas las remuneraciones previstas en el CCT aplicable [VERIFICAR CCT APLICABLE]
-- Minimo: no puede ser inferior a dos meses de la base de calculo (art. 245, ultimo parrafo)
+- Mínimo: no puede ser inferior a dos meses de la base de cálculo (art. 245, último párrafo)
 
-*Regimen intermedio (actos extintivos 30-dic-2023 a 5-mar-2026 - DNU 70/2023 + Ley 27.742):*
-- Base: mejor remuneracion mensual normal y habitual del ultimo ano **excluyendo SAC, bonificaciones y cualquier concepto de pago semestral o anual**
-- Multiplicador, tope y minimo: identicos al regimen original
+*Régimen intermedio (actos extintivos 30-dic-2023 a 5-mar-2026 - DNU 70/2023 + Ley 27.742):*
+- Base: mejor remuneración mensual normal y habitual del último año **excluyendo SAC, bonificaciones y cualquier concepto de pago semestral o anual**
+- Multiplicador, tope y mínimo: idénticos al régimen original - [VERIFICAR CCT APLICABLE] para el tope
 
-*Regimen vigente (actos extintivos desde 6-mar-2026 - Ley 27.802, art. 51):*
-- Base: mejor remuneracion mensual normal y habitual del ultimo ano **excluyendo SAC, bonificaciones de pago semestral o anual, vacaciones no gozadas y horas extras**
+*Régimen vigente (actos extintivos desde 6-mar-2026 - Ley 27.802, art. 51):*
+- Base: mejor remuneración mensual normal y habitual del último año **excluyendo SAC, bonificaciones de pago semestral o anual, vacaciones no gozadas y horas extras**
 - Tope: tres veces el salario mensual promedio del CCT aplicable [VERIFICAR CCT APLICABLE]
-- Multiplicador y minimo: identicos a los regimenes anteriores
+- Multiplicador y mínimo: idénticos a los regímenes anteriores
 
 Verificar siempre la fecha del acto extintivo antes de calcular la base del art. 245.
 
 Regla operativa: calcular siempre base y tope por separado. Doctrina "Vizzoti" (CSJN, 2004): si el tope reduce la base de cálculo en más del 33%, aplica el 67% de la mejor remuneración real como base mínima, sin necesidad de declaración de inconstitucionalidad caso a caso. Verificar la diferencia entre tope y mejor remuneración en toda liquidación donde el tope resulte inferior a la remuneración real.
 
-**Fondo de cese laboral / sistema de capitalizacion privada (alternativa al art. 245 LCT):**
+**Fondo de cese laboral / sistema de capitalización privada (alternativa al art. 245 LCT):**
 
-Introducido por DNU 70/2023. Si el CCT aplicable lo establece, el regimen de compensacion por extincion puede ser reemplazado por un fondo de cese o sistema de capitalizacion privada contratado por el empleador a su costo.
+Introducido por DNU 70/2023. Si el CCT aplicable lo establece expresamente, el régimen de compensación por extinción puede ser reemplazado por un fondo de cese o sistema de capitalización privada contratado por el empleador a su costo.
 
-- Cubre: la indemnizacion del art. 245 y/o sumas acordadas para extincion por mutuo acuerdo (art. 241 LCT)
-- Solo aplica si el CCT lo prevee expresamente
-- Limitaciones criticas: sin minimo legal de contribucion, sin preservacion de valor en inflacion, sin inembargabilidad equivalente al fondo de cese de la construccion (Ley 22.250)
+- Cubre: la indemnización del art. 245 y/o sumas acordadas para extinción por mutuo acuerdo (art. 241 LCT)
+- Solo aplica si el CCT lo prevé expresamente
+- Limitaciones críticas: sin mínimo legal de contribución, sin preservación de valor en inflación, sin inembargabilidad equivalente al fondo de cese de la construcción (Ley 22.250)
 
-Preguntas de diagnostico ante este supuesto:
-1. El CCT aplicable establece o admite fondo de cese?
-2. El empleador contrato sistema de capitalizacion?
-3. La cobertura iguala o supera el monto proyectado del art. 245 a la antiguedad estimada?
+Preguntas de diagnóstico ante este supuesto:
+1. ¿El CCT aplicable establece expresamente el fondo de cese o sistema de capitalización?
+2. ¿El empleador contrató el sistema de capitalización?
+3. ¿La cobertura iguala o supera el monto proyectado del art. 245 a la antigüedad estimada?
 
 **Agravante por falta de pago en término (art. 2 Ley 25.323) - DEROGADO por Ley 27.742 (vigente desde 9/7/2024):**
 - Para actos extintivos anteriores al 9/7/2024: 50% adicional sobre indemnizaciones de los arts. 232, 233 y 245 (y art. 246 en el despido indirecto) si el empleador no pagó en tiempo y el trabajador debió iniciar acciones judiciales o administrativas. Condición: intimación fehaciente previa del trabajador.
@@ -304,17 +304,17 @@ Preguntas de diagnostico ante este supuesto:
 
 #### Extinción durante el período de prueba
 
-**Regimen general (art. 92 bis LCT) - DOS regimenes segun fecha de inicio del contrato:**
+**Régimen general (art. 92 bis LCT) - DOS regímenes según fecha de inicio del contrato:**
 
-*Regimen reformado (contratos iniciados post-30-dic-2023 - VIGENTE):*
-- Plazo: **8 meses** como regla general (DNU 70/2023 + Ley 27.742 consolidacion). No es 6 meses ni es solo para empresas pequenas: es 8 meses para todos los empleadores.
-- El empleador puede extinguir sin expresion de causa durante el periodo de prueba, con preaviso de 15 dias.
-- No genera derecho a indemnizacion por antiguedad (art. 245).
-- Limitacion: el empleador no puede contratar al mismo trabajador bajo periodo de prueba mas de una vez.
+*Régimen reformado (contratos iniciados post-30-dic-2023 - VIGENTE, art. 91 Ley 27.742):*
+- Plazo: **6 meses** como regla general (todos los empleadores). Ampliable a **8 meses** por CCT en empresas de 6 a 100 trabajadores; ampliable a **1 año** por CCT en empresas de hasta 5 trabajadores. Las ampliaciones requieren CCT expreso: no operan automáticamente.
+- El empleador puede extinguir sin expresión de causa durante el período de prueba. Para extinciones hasta el 5/3/2026: preaviso de 15 días. Para extinciones desde el 6/3/2026: sin obligación de preaviso (art. 231 inc. b, texto según Ley 27.802, art. 48).
+- No genera derecho a indemnización por antigüedad (art. 245).
+- Limitación: el empleador no puede contratar al mismo trabajador bajo período de prueba más de una vez.
 
-*Regimen original (contratos iniciados pre-30-dic-2023):*
+*Régimen original (contratos iniciados pre-30-dic-2023):*
 - Plazo: 3 meses (texto original art. 92 bis LCT).
-- Resto igual al regimen reformado.
+- Resto igual al régimen reformado.
 
 Alertas específicas:
 - Verificar siempre si el período de prueba estaba vigente al momento de la extinción o si ya había vencido: una extinción "durante el período de prueba" cuando este ya venció genera todos los derechos del despido sin causa.
@@ -365,6 +365,7 @@ Alertas específicas:
 - Debe formalizarse ante la autoridad judicial o administrativa o en escritura pública
 - Sin esas formalidades, es ineficaz
 - Las partes pueden acordar una suma a favor del trabajador, pero no puede implicar renuncia a derechos futuros
+- Alerta: evaluar siempre si el acuerdo encubre un despido (art. 14 LCT). La homologación administrativa o judicial cumple una función de control de proporcionalidad: sin ese control, la eficacia liberatoria del acuerdo frente al art. 12 LCT es cuestionable cuando implica resignar rubros litigiosos. Si hay duda sobre si el acuerdo es genuino o simula un despido, aplicar art. 15 LCT y derivar a homologación con revisión de proporcionalidad.
 
 #### Extinción por incapacidad o inhabilidad (arts. 212-213 LCT)
 
@@ -433,15 +434,15 @@ Alertas específicas:
 - Los días son corridos, no hábiles, salvo disposición convencional en contrario.
 - La licencia por nacimiento de hijo (2 días) es independiente de la licencia por paternidad que algunos CCT establecen con mayor extensión.
 
-### Certificados de trabajo (art. 80 LCT / Ley 25.345)
+### Certificados de trabajo (art. 80 LCT)
 
 **Obligación del empleador:** entregar certificado de trabajo y constancia de los aportes y contribuciones al sistema de seguridad social dentro de los 45 días hábiles de extinguida la relación, en formato físico, digital fehaciente, o mediante disponibilidad en ARCA (art. 80 LCT, texto según Ley 27.802, art. 25).
 
-**Multa por incumplimiento:** tres mejores remuneraciones mensuales, normales y habituales.
+**Multa por incumplimiento:** el art. 45 de la Ley 25.345 fue derogado por art. 99 de la Ley 27.742 desde el 9/7/2024. Para extinciones desde esa fecha no existe multa específica por falta de certificados. El incumplimiento del art. 80 LCT habilita una acción judicial de cumplimiento de obligación de hacer con apercibimiento de astreintes (sanciones conminatorias diarias, art. 804 CCyCN) hasta la efectiva entrega. Para extinciones anteriores al 9/7/2024 la multa del art. 45 era aplicable con intimación fehaciente previa.
 
-**Condición para la multa:** el trabajador debe intimar fehacientemente al empleador. Sin intimación, no procede la multa.
+**Condición para la multa (solo extinciones pre-9/7/2024):** el trabajador debe haber intimado fehacientemente al empleador. Sin intimación, no procedía la multa.
 
-Regla operativa: en toda liquidación final, verificar si se entregaron los certificados y si el trabajador intimó. Es un reclamo frecuentemente omitido que puede tener impacto significativo.
+Regla operativa: en toda liquidación final, verificar la fecha de extinción para determinar si la multa aplica, si se entregaron los certificados por alguna de las tres vías vigentes, y si el trabajador intimó en tiempo.
 
 ### Prescripción laboral
 
@@ -494,7 +495,7 @@ Alertas específicas:
 #### Enfermedades profesionales
 
 - Listadas en el Decreto 658/96 y modificatorias [VERIFICAR VIGENCIA: el listado fue actualizado por decretos posteriores; verificar texto vigente antes de aconsejar sobre cobertura de una enfermedad específica]: la ART las cubre sin discusión si están en el listado
-- No listadas: el trabajador puede reclamar por la vía civil si acredita la relación causal
+- No listadas: el trabajador tiene dos vías no excluyentes en primera instancia. (a) Dentro del sistema LRT: solicitar ante la Comisión Médica Central el reconocimiento de la enfermedad como profesional en el caso concreto (doctrina "Silva", CSJN, 2004, y línea jurisprudencial posterior); si la CMC la reconoce, la ART queda obligada a cubrir. (b) Opción excluyente: ejercer la acción civil por daños y perjuicios contra el empleador (art. 4 Ley 26.773), acreditando la relación causal y la culpa del empleador. Alertar siempre: una vez ejercida la opción excluyente por la vía civil, no puede volver al sistema LRT. La vía CMC es el paso previo recomendable antes de aconsejar la acción civil.
 - Enfermedades "in itinere": ocurridas en el trayecto al o desde el trabajo; cubiertas por la LRT
 
 ### Proceso laboral - fuero nacional (Ley 18.345)
@@ -573,13 +574,13 @@ Estrategia de análisis desde el empleador:
   Verificar el plazo y la fecha de exigibilidad de cada crédito por separado. En diferencias salariales, prescripción crédito por crédito.
 - No citar montos de prestaciones de la LRT, topes del art. 245, ni salarios convencionales sin marcador de verificación: se actualizan con frecuencia.
 - No citar tasa de interés sin identificar la sala sorteada y verificar su criterio vigente: no existe acta unificada desde el Acta CNAT 2788/2024. Cada sala aplica su propio criterio. Usar siempre: `[VERIFICAR TASA VIGENTE: sin acta unificada - criterio según sala sorteada - verificar jurisprudencia reciente de la sala]`
-- Ante cualquier cuestión sobre período de prueba, régimen de extinción o negociación colectiva: agregar alerta de verificación post-DNU 70/2023 y Ley 27.742.
+- Ante cualquier cuestión sobre período de prueba, régimen de extinción o negociación colectiva: agregar alerta de verificación post-DNU 70/2023, Ley 27.742 y Ley 27.802, identificando el tramo temporal del acto.
 - Todo escrito laboral cierra con "Estado del escrito" estándar más: fuero y código aplicado, rol (trabajador / empleador), CCT aplicable (indicado / a verificar), SECLO cumplido (sí / no / no aplica), conceptos de la liquidación con marcadores de verificación de montos, alerta DNU 70/2023 / Ley 27.742 si aplica, prescripción inminente (sí - rubro y fecha de vencimiento / no), próximo plazo procesal si lo hay.
 
 ---
 
-*Ultima actualizacion: mayo 2026*
-*Normativa base: LCT (Ley 20.744 reformada por DNU 70/2023 + Ley 27.742), Ley 24.013, Ley 25.323, Ley 24.557, Ley 26.773, Ley 27.348, Ley 27.555*
+*Última actualización: mayo 2026*
+*Normativa base: LCT (Ley 20.744 reformada por DNU 70/2023 + Ley 27.742 + Ley 27.802), Ley 24.013, Ley 25.323, Ley 24.557, Ley 26.773, Ley 27.348, Ley 27.555*
 *Reforma laboral vigente operacionalmente desde Acuerdo Pleno CNAT abril 2026 (levantamiento cautelar CGT)*
 *Incorpora audit de gaps post-reforma 2024: Diego Fernandez - Sovra (mayo 2026)*
 *Autor: Dr. Cristian Aboitiz · [@abogadoaboitiz](https://x.com/abogadoaboitiz)*
