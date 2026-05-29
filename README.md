@@ -24,9 +24,22 @@ argentina/
   red-flags-contratos.md            # Alertas para revisión de contratos (activ. automática)
   contratos-CLAUDE.md               # Perfil unificado para revisión y redacción de contratos
   administrativo-CLAUDE.md          # Perfil derecho administrativo (federal)
-  administrativo-caba-CLAUDE.md     # Perfil administrativo CABA (CCAyT - complementa al federal)
-  administrativo-PBA-CLAUDE.md      # Perfil administrativo PBA (complementa al federal)
-  administrativo-SALTA-CLAUDE.md    # Perfil administrativo Salta (complementa al federal)
+  administrativo/                    # Perfiles jurisdiccionales (complementan al federal)
+    administrativo-caba-CLAUDE.md     # CABA (CCAyT)
+    administrativo-PBA-CLAUDE.md      # Buenos Aires (CPCA)
+    administrativo-CHUBUT-CLAUDE.md   # Chubut
+    administrativo-CÓRDOBA-CLAUDE.md  # Córdoba
+    administrativo-CORRIENTES-CLAUDE.md # Corrientes
+    administrativo-ENTRERIOS-CLAUDE.md  # Entre Ríos
+    administrativo-MENDOZA-CLAUDE.md  # Mendoza
+    administrativo-MISIONES-CLAUDE.md # Misiones
+    administrativo-NEUQUEN-CLAUDE.md  # Neuquén
+    administrativo-RIONEGRO-CLAUDE.md # Río Negro
+    administrativo-SALTA-CLAUDE.md    # Salta
+    administrativo-SANJUAN-CLAUDE.md  # San Juan
+    administrativo-SANTAFE-CLAUDE.md  # Santa Fe
+    administrativo-TUCUMAN-CLAUDE.md  # Tucumán
+    administrativo-_PROVINCIA_-CLAUDE.md # Template para nuevas provincias
   especialidades/
     medicina-legal-CLAUDE.md         # Pericia médica forense (penal / civil / seguridad social)
   civil-CLAUDE.md                   # Perfil derecho civil (CCCN)
