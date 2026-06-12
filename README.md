@@ -47,6 +47,7 @@ argentina/
     notarial-clausulas.md           # Biblioteca de cláusulas tipo (complemento del perfil base)
     notarial-_PROVINCIA_-CLAUDE.md  # Template para perfiles jurisdiccionales
   civil-CLAUDE.md                   # Perfil derecho civil (CCCN)
+  discapacidad-CLAUDE.md            # Perfil derecho de la discapacidad (Ley 24.901, CDPCD, CUD, PNC)
   concursos-CLAUDE.md               # Perfil concursos y quiebras (LCQ)
   familia-CLAUDE.md                 # Perfil derecho de familia
   laboral-CLAUDE.md                 # Perfil derecho del trabajo (LCT)
@@ -89,6 +90,7 @@ argentina/
 - LDC (Ley 24.240) para contratos de consumo
 - LGS para societario
 - Ley 17.801 y CCCN para actos registrales y compliance notarial (Res. UIF 242/2023)
+- Ley 24.901 + CDPCD (Ley 27.044) para derecho de la discapacidad
 
 **Reemplaza la lógica de common law en tres áreas críticas:**
 - Contratos: análisis bajo CCCN (no bajo consideration ni indemnification caps)
@@ -227,6 +229,7 @@ Después:
 3. Subís los perfiles de área como **Knowledge** del Project (botón "Add content"). Ejemplos según tu fuero habitual:
    - Laboral: `argentina/laboral-CLAUDE.md`. Para usar skills específicas (telegramas, plazos u otras), subí los archivos de la subcarpeta correspondiente dentro de `argentina/laboral/` cuando las necesites.
    - Civil: `argentina/civil-CLAUDE.md` + `argentina/ejemplos-civil.md`
+   - Discapacidad: `argentina/discapacidad-CLAUDE.md`
    - Administrativo CABA: `argentina/administrativo-CLAUDE.md` + `argentina/administrativo-caba-CLAUDE.md`
    - Administrativo PBA: `argentina/administrativo-CLAUDE.md` + `argentina/administrativo-PBA-CLAUDE.md`
    - Administrativo Salta: `argentina/administrativo-CLAUDE.md` + `argentina/administrativo-SALTA-CLAUDE.md`
@@ -294,6 +297,7 @@ Los plugins disponibles corresponden a las áreas de práctica cubiertas por est
 | `administrativo-PBA-CLAUDE.md` | Derecho administrativo PBA | `administrativo-CLAUDE.md` (base) | Plazos CPCA PBA, Ley 7647, contratación pública PBA |
 | `administrativo-SALTA-CLAUDE.md` | Derecho administrativo Salta | `administrativo-CLAUDE.md` (base) | Procedimiento administrativo Salta, fuero contencioso local |
 | `civil-CLAUDE.md` | Derecho civil (CCCN) | `ejemplos-civil.md` | Tasas de interés, fórmulas de daños por fuero |
+| `discapacidad-CLAUDE.md` | Derecho de la discapacidad | - | Ley 27.793 (emergencia, vence 31/12/2026), nomenclador ANDIS (resolución mensual), Ley 26.682 y decretos de desregulación |
 | `penal-CLAUDE.md` | Derecho penal | - | Umbrales penales, código procesal vigente |
 | `familia-CLAUDE.md` | Derecho de familia | - | Cuotas alimentarias, régimen de alquileres |
 | `societario-CLAUDE.md` | Societario y M&A | `ejemplos-societario.md` | Resoluciones IGJ/DPPJ, capital mínimo |
@@ -315,6 +319,7 @@ de cada perfil para que el sistema la procese con prioridad.
 |---|---|---|
 | `laboral-CLAUDE.md` | `## Alerta normativa - Reforma laboral 2023-2026 vigente operacionalmente` | DNU 70/2023, Ley 27.742 (derogación agravantes registrales), Ley 27.802 (art. 245, art. 66, art. 80, art. 240) |
 | `civil-CLAUDE.md` | `## Alerta normativa - normas de vigencia variable` | Tasas de interés por fuero, fórmulas de cuantificación de daños, art. 52 bis LDC |
+| `discapacidad-CLAUDE.md` | `## Alerta normativa - normas de vigencia variable` | Ley 27.793 (emergencia, vence 31/12/2026), nomenclador ANDIS (RESOL-2026-13-APN-SND#MS, actualización mensual), Ley 26.682 y decretos de desregulación económica, ANDIS (Decreto 698/2017, dependencia jerárquica variable), CUD sin vencimiento Ley 27.711 (resoluciones de actualización ANDIS), Ley 26.657 (reglamentación salud mental - plazos e internación involuntaria) |
 | `administrativo-CLAUDE.md` | `## Alerta normativa - normas de vigencia variable` | Plazos de caducidad art. 25 LNPA, contratación pública, normativa provincial |
 | `concursos-CLAUDE.md` | `## Alerta normativa - normas de vigencia variable` | Tasas post-concursales, período de sospecha, reformas LCQ |
 | `tributario-CLAUDE.md` | `## Alerta normativa - normas de vigencia variable` | Ganancias/MNI, Bienes Personales, umbrales penales Ley 27.430, monto mínimo TFN |
@@ -404,6 +409,7 @@ Accedé directamente y pegá el texto en la sesión. Son la fuente de verdad ant
 | Jurisprudencia tributaria TFN | tfn.gob.ar |
 | Normativa BCRA | bcra.gov.ar |
 | Disposiciones AAIP (datos personales) | argentina.gob.ar/aaip |
+| Nomenclador, CUD y PNC (discapacidad) | andis.gob.ar |
 
 ---
 
@@ -434,6 +440,16 @@ Accedé directamente y pegá el texto en la sesión. Son la fuente de verdad ant
 - Verificar agotamiento de la vía administrativa y plazos de caducidad (art. 25 LNPA y equivalentes provinciales)
 - Analizar recursos administrativos y acciones contenciosas en fuero federal, CABA (CCAyT / TSJBA) y las provincias con perfil cargado: Buenos Aires (Cámaras CA / SCBA), Chubut (STJ - Sala CA), Córdoba (TSJ - Sala CA), Corrientes (STJ - pleno), Entre Ríos (STJ - Sala N° 2 / Sala Constitucional y Electoral), Mendoza (SCJ - Sala Primera), Misiones (STJ - pleno), Neuquén (TSJ - Sala Procesal Administrativa), Río Negro (STJ), Salta (Corte de Justicia - pleno), San Juan (Corte de Justicia - Sala Segunda), Santa Fe (CSJSF) y Tucumán (CSJ - Sala CA)
 - Identificar el régimen procesal aplicable en cada jurisdicción y alertar sobre plazos de caducidad diferenciados entre vía administrativa y acción judicial
+
+**Discapacidad:**
+- Redactar amparos de salud contra obras sociales nacionales y empresas de medicina prepaga (fuero Civil y Comercial Federal) y contra el Estado nacional / ANDIS (fuero Contencioso Administrativo Federal)
+- Plantear medidas cautelares de urgencia con fundamento en el peligro en la demora in re ipsa; invocar art. 2 inc. 2 Ley 26.854 cuando hay codemandado estatal
+- Verificar fuero competente según el demandado (obra social nacional, prepaga, ANDIS, GCBA, Estado provincial) con la regla de demandado mixto
+- Diagnosticar checklist de admisibilidad del amparo: CUD vigente o en trámite, prescripción médica fundada con historia clínica, silencio configurable (48/72 horas en urgencias, 10 días corridos en tracto sucesivo)
+- Distinguir Acompañante Terapéutico (rol clínico rehabilitatorio, art. 17 Ley 24.901) de Cuidador Domiciliario y fundamentar la cobertura ante rechazos de obra social
+- Aplicar el bloque de constitucionalidad CDPCD (arts. 25-26, Ley 27.044) para prestaciones fuera del nomenclador, acreditando la inexistencia de alternativa eficaz
+- Controlar prescripción diferenciada: imprescriptibilidad del derecho a la cobertura (tracto sucesivo) vs. prescripción de 5 años para reintegros dinerarios (art. 2560 CCCN)
+- Alertar sobre agotamiento de vía administrativa (Ley 19.549) antes de procesos ordinarios contra el Estado, con la excepción para el amparo cuando el tránsito torna ilusorio el derecho a la salud
 
 **Penal:**
 - Analizar estrategia de defensa por etapa procesal y código aplicable (CPPN / CPPF / CPPCABA / CPPBA)
